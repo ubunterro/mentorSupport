@@ -1,3 +1,5 @@
+<?php include 'questionsList.php' ?>
+
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -21,11 +23,11 @@
     </div>
 
     <div class="main-questions">
-        <main class="content"><?= $questionBar; ?></main>
+        <main class="content"><?php //$questionBar; ?></main>
     </div>
 
     <div class="main-questionbar">
-        <main class="content"><?= $questionBar; ?></main>
+        <main class="content"><?= $questionsTable; ?></main>
     </div>
     <footer class="main-footer">&copy; ComputerCraft </footer>
 </body>
