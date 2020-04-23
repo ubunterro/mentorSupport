@@ -23,8 +23,6 @@ if ($mysqli->connect_errno) {
 function query($query) {
     global $mysqli;
     return mysqli_query($mysqli, $query);
-
-
 }
 
 ?>

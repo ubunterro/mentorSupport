@@ -17,7 +17,7 @@ if(isset($_POST['owner_id']) && isset($_POST['name']))
 
 function registerHackaton($owner_id, $name){
     query("INSERT INTO hackatons (name, owner_id) VALUES ('$name', '$owner_id')");
-    echo "<h1>hackaton added</h1>";
+    echo "<h1>team added</h1>";
 }
 
 ?>
