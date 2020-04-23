@@ -1,5 +1,5 @@
 <?php
-include 'dbconf.php';
+include "engine/dbconf.php";
 
 $sql = "SELECT text, topic FROM questions ORDER BY questionId";
 $result = $mysqli->query($sql);
