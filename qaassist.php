@@ -19,7 +19,7 @@ function UpdateCacheQA($hackid)
 
     if (!$qres)
     {
-        echo "alert(Ошибка запроса к БД: " . mysqli_error($mysqli) . ')';
+        echo "Ошибка запроса к БД: " . mysqli_error($mysqli);
         return;
     }
 
@@ -33,7 +33,7 @@ function UpdateCacheQA($hackid)
     $cachefile = fopen("cache/questions/$hackid.json", "w");
     if (fwrite($cachefile, $json) != false) {
         fclose($cachefile);
-        echo 'OK ' . $hackid;
+        echo "Кеш обновлен";
     } else {
         echo "Ошибка при записи текста в кеш";
     }
@@ -42,10 +42,8 @@ function UpdateCacheQA($hackid)
 //Взаимодействие через пост-запрос
 if (isset($_POST['hackId']))
     UpdateCacheQA($_POST['hackId']);
-
-
 ?>
-
+<!-- Тест
 <html>
 
 <body>
@@ -55,4 +53,4 @@ if (isset($_POST['hackId']))
     </form>
 </body>
 
-</html>
+</html> -->
