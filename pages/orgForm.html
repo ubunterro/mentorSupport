@@ -1,0 +1,15 @@
+<div class="formhack">
+    <h3>Регистрация страницы вопросов для хакатона</h3>
+        <form action="orgFormSubmit.php" method="post">
+            <input type="text" name="hackName" placeholder="наименование хакатона">
+            <br>
+            <p>Cведения о менторах и организаторах для связи:</p>
+            <div class = orgList id="orgList">
+                <script src="addOrgListElem.js"></script>
+                <script> addElem(document.getElementById('orgList')) </script>
+            </div>
+            <br>
+            <input type="submit" name="" value="организовать страницу вопросов хакатона">
+        </form>
+    </div>
+</div>
