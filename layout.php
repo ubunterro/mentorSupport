@@ -18,7 +18,7 @@
     <div class="main-questionbar">
         <form>
             <textarea cols="30" rows="1"></textarea>
-            <button class="askButton">Искатьпроверю как работает</button>
+            <button class="askButton">Искать</button>
         </form>
     </div>
 
