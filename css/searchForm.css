@@ -1,0 +1,25 @@
+.wrapper {
+    position: absolute;
+    display: inline;
+    left: 50%;
+    top: 50%;
+    min-width: 75%;
+    min-height: 50%;
+    transform: translate(-50%, -50%);
+    background-color: salmon;
+    color: white;
+}
+
+.header {
+    width: 100%;
+    font-weight:  bold;
+    font-size: 5em;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.submitform {
+    width: 100%;
+    text-align: center;
+}
