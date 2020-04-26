@@ -1,0 +1,352 @@
+body{
+
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+
+img {
+	-webkit-user-drag: none;
+}
+
+@font-face{
+font-family: 'MyWebFont';
+src: url('18645.ttf');
+
+}
+.imghead{
+	width: 50%;
+	float: right;
+}
+h1,h2,h3,h4,h5{
+	float: left;
+}
+h2,h3{
+	color: #448a3e;
+	font-family: 'MyWebFont';
+}
+/*Оформление скролла*/
+::-webkit-scrollbar { width: 12px; height: 4px; margin: 0;}
+::-webkit-scrollbar-button {  background-color: #d6ded9; }
+::-webkit-scrollbar-thumb {background-color: #d6ded9;}
+header h2{
+	width: 45%;
+	margin: 15px 0 15px 35px;
+	clear: left;
+}
+header .but{
+ margin-left: 5%;
+ margin-bottom: 5%;
+}
+.logo{
+	width: 49%;
+	float: left;
+	clear: none;
+	margin-bottom:5%;
+	margin-left:1%; 
+}
+.logo img{
+	float: left;
+	width: 12%;
+	margin: -15px 5px 0 0;
+}
+header{
+	width: 100%;
+	margin: 5px;
+}
+.but{
+	height: 50px;
+	background: none;
+	font-size: 15px;
+	border:none;
+	background-color: #ff6e40;
+	min-width: 200px;
+	cursor: pointer;
+	float: left;
+	clear: left;
+	margin: 15px;
+	outline: none;
+	box-shadow: 0.4em 0.4em 0px rgb(255,148,115);
+	color:#d9d9d9;
+	font-family: 'MyWebFont';
+}
+.but:hover{
+	background-color: #ff3d00;
+	box-shadow: -0.4em -0.4em 0px rgb(255,110,64);
+}
+.search{
+	width: 100%;
+	float: left;
+	background: linear-gradient(120deg, #a5cf9a, #45bb35);
+	padding: 0 0 5% 0;
+
+}
+.search h2{
+	margin: 5% 30%;
+}
+.formsearch{
+	width: 60%;
+	clear: left;
+	margin: 15px auto;
+	color:#d9d9d9;
+}
+.formsearch .but{
+	float: none;
+	margin: 0 8px;
+
+}
+.textinput{
+	float: left;
+	background:none;
+	width: 70%;
+	font-size: 20px;
+	background-color: #448a3e;
+	border: none;
+	padding: 8px;
+	outline: none;
+	height: 35px;
+	text-align: center;
+	color:#d9d9d9;
+	margin-bottom:15px; 
+}
+.textinput::placeholder{
+	color:#d9d9d9;
+
+}
+
+
+.inf{
+	width: 100%;
+	float: left;
+	background: linear-gradient(120deg, #bfd3ba, #cbdfc6);
+	height: 600px;
+}
+.inf  ul{
+   z-index: 5;
+  position: relative;
+  list-style: none;
+  font-family: 'MyWebFont';
+  font-size: 17px;
+  border-left: 5px solid #ff6e40;
+  margin-left:20%;
+  margin-top:10%;
+  width: 50%;
+  padding: 0;
+  color:#285425;
+}
+.inf li {
+	padding: 10px;
+}
+
+
+.formhack{
+	width: 100%;
+	float: left;
+	background: linear-gradient(120deg, #45bb35, #a5cf9a);
+	padding: 0 0 5% 0;
+}
+.formhack h2{
+	margin: 35px 0 0 5%;
+}
+.hackform{
+	width: 90%;
+	float: left;
+	margin: 15px 5%; 
+}
+.textform{
+	background:none;
+	background-color: #448a3e;
+	border: none;
+	padding: 8px;
+	outline: none;
+	color:#d9d9d9;
+	margin-bottom:5px;
+	min-width: 210px; 
+	font-size: 15px;
+}
+.textform::placeholder{
+	color:#d9d9d9;
+
+}
+.hackform .but{
+	margin-left: -3px;
+}
+footer {
+	background-color: #448a3e;
+	width: 96%;
+	padding: 2% 2% 0 2%;
+	float: left;
+	height: 80px;
+	margin: 0;
+	font-family: 'MyWebFont';
+	color: #285425;
+}
+
+
+
+
+/*Новая страница*/
+.srch{
+	position: fixed;
+	right: 0;
+	width: 40%;
+	float: right;
+}
+.srch h2{
+	float: right;
+}
+.srch form{
+	margin:0 12% 0 0;
+	width: 90%;
+	float: right;
+	text-align: right;
+}
+.namesearch{
+	width: 83%;
+	background: none;
+	border: 1px solid grey;
+	font-size: 14px;
+	padding: 3px;
+	outline: none;
+}
+.typopoisk{
+	width: 255px;
+	background: none;
+	border: 1px solid grey;
+	font-size: 14px;
+	padding: 3px;
+	outline: none;
+}
+.butt{
+	min-width: 100px;
+	padding: 5px;
+	background: none;
+	border: none;
+	background-color: #ff6e40;
+	cursor: pointer;
+	outline: none;
+	color:#d9d9d9;
+}
+.butt:hover{
+	background-color: #ff3d00;
+}
+.floatright{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 30%;
+	height: 78.6%;
+	background-color: #cbdfc6;
+	overflow-y: scroll;
+	padding: 1% 15px;
+}
+.floatright h3{
+	text-align: center;
+	align-content: center;
+	clear: right;
+	width: 100%;
+}
+.teg{
+	width: 100%;
+	display: inline-block;
+	border-bottom: solid 1px #448a3e;
+	padding: 0 0 3px 0;
+
+}
+.teg p,span{
+	margin: 0;
+	padding: 0;
+}
+.floatright .teg div{
+	width: 30%;
+	float: left;
+	margin: 2px 1px;
+	padding: 0 1px;
+}
+
+.nav{
+	position: relative;
+	width: 60%;
+	float: left;
+	list-style: none;
+	margin: 2% 0 4% 0;
+}
+
+.nav li{
+	border: 1px solid #448a3e;
+	color:#448a3e;
+	min-width: 150px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+	margin: 5px;
+	padding:5px;
+}
+.nav li:hover{
+	background-color: #accda7;
+}
+
+.pop{
+	width: 67%;
+	padding: 5px;
+	background-color: #accda7; 
+	float: left;
+}
+.section{
+	width: 67%;
+	padding:5px;
+	float: left;
+}
+.lisection{
+	width: 100%;
+	text-align: center;
+	padding:4% 0;
+	cursor: pointer;
+	color:#ff6e40;
+	border-bottom: solid 1px #448a3e;
+	float: left;
+
+}
+.questions{
+	width: 67%;
+	padding: 5px;
+	background-color: #d9d9d9; 
+	float: left;
+	height: 550px;
+}
+.questionstext{
+	width: 90%;
+	height: 200px;
+	float: left;
+	margin: 1% 0 0 0;
+	background:none;
+	outline: none;
+}
+.textlim{
+	float: left;
+	clear: left;
+	margin: 15px 0;
+	height: 25px;
+	background: none;
+	min-width: 250px;
+	border:solid 1px #448a3e;
+	outline: none;
+}
+.teg p{
+	float: left;
+	width: 100%;
+}
+.mane{
+	width: 67%;
+	padding: 5px;
+	float: left;
+	background-color: #bfd3ba;
+}
+
+.likes {
+	user-select: none;
+	-webkit-user-drag: none;
+	background-color: rgba(0, 255, 0, 0.25);
+	padding: 2px;
+}
